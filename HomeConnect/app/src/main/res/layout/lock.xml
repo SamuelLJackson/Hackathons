@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Door Locks"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:id="@+id/grid"
+        android:orientation="horizontal"
+
+        android:padding="15dp">
+
+        <TextView
+            android:text="Front Door"
+            android:id="@+id/front_door_lock_text_view"
+            android:background="#4CAF50"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="LOCK"
+            android:id="@+id/front_door_lock_button"
+            android:layout_gravity="left|top"
+            /><TextView
+        android:text="Back Door"
+        android:background="#4CAF50"
+        android:id="@+id/back_door_lock_text_view"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+
+        android:layout_marginTop="5dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="LOCK"
+            android:id="@+id/back_door_lock_button"
+            android:layout_gravity="left|top"
+            />
+
+    </GridLayout>
+
+</LinearLayout>

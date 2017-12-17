@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/severett29/AndroidStudioProjects/HomeConnect/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="17ed036e4899b8aa57f2ac686fe685339f875a9a">
+        <dex dex="/Users/severett29/AndroidStudioProjects/HomeConnect/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6194f17a501095868f2d1aef1f3ece974d52cc7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/severett29/AndroidStudioProjects/HomeConnect/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/severett29/AndroidStudioProjects/HomeConnect/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1e0882d978bde878de0024e268b10fd9858aa30d/classes.dex" />
+    </item>
+
+</items>

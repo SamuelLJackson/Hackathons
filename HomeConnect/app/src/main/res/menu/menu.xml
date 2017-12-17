@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.newthinktank.menuexamples2.app.MainActivity" >
+
+    <!-- The Options or Overflow menu is located in the upper right hand
+    corner for devices running Android 4.0 and above.
+    To make this menu use the menu element and define each option in an
+    item element.
+
+    orderInCategory defines the order of appearance
+
+    showAsAction defines that the item should appear on the action bar
+    if there is enough room or not. If you want to support the Action Bar
+    for versions of Android below 2.1 use your apps name space instead of
+    android so you can use import android.support.v7.app.ActionBarActivity;
+    Use withText to show the title in the action bar
+    icon defines a icon to use for the item
+
+    checkableBehavior is used to allow the user to select a single or all
+    items when the menu items are surrounded by group -->
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/door_locks"
+            android:title="Door Locks"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/lights"
+            android:title="Lights"
+            app:showAsAction="never"
+            android:orderInCategory="101"/>
+        <item android:id="@+id/washerdryer_item"
+            android:title="Washer/Dryer"
+            android:orderInCategory="102"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/oven_item"
+            android:title="Oven"
+            android:orderInCategory="103"
+            app:showAsAction="never"/>
+
+
+
+    </group>
+
+</menu>

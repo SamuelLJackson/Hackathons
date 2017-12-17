@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Oven"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:id="@+id/grid"
+        android:orientation="horizontal"
+
+        android:padding="15dp">
+    <TextView
+        android:text="Current Temperature: "
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/current_temperature_title_text_view" />
+        <TextView
+            android:text="123"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/current_temperature_text_view" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:id="@+id/preheat_temperature_edit_text"
+            android:layout_width="200dp"
+            android:hint="pre-heat to..."/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set temperature"
+            android:id="@+id/set_oven_temperature_button"/>
+
+
+</GridLayout>
+</LinearLayout>
