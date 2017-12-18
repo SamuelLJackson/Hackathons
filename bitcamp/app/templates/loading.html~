@@ -1,0 +1,25 @@
+{% include"header.html" %}
+
+<body>
+  <div class="container">
+    <h1>Upload</h1>
+     
+    <form method=post enctype=multipart/form-data>
+  
+	Enter TextBook Name:<br>
+	<input type="text" name="textBook"><br>
+ 
+	<label class="btn btn-warning btn-file">
+	Browse <input type="file" name="file" id="file" value="file">
+	</label>
+  
+	<input type="submit" value="Upload" id="Upload" class="btn btn-warning">
+ 
+    </form>
+    <div class="load" style="display:none">
+      <img id="load" src="../static/batman.gif"/>
+    </div>
+  </div>
+</body>
+</html>
+

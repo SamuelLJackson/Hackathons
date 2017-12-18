@@ -1,0 +1,58 @@
+{% include "header.html" %}
+
+<body>
+  <link rel = 'stylesheet' type = 'text/css' href = "{{url_for('static', filename='style.css')}}"/>
+  <div class="container">
+    <h2>{{testTitle}}</h2>
+    {% for i in range(quiz|length) %}
+    <div class="row">
+
+      <div class="col-md-10">
+	<form method="post">
+	  {#
+	  {{ sentenceList[i][quiz[i].sentence_index][0]}}
+	  {% if quiz[i].answered == true %}
+	  <p style="color:green"><strong>{{theWord}}</strong></p>
+	  {% else %}
+	  <input type=text size="20" name="attemptedAnswer">
+	  <input type=hidden name="questIndex" value="{{i}}">
+	  {% endif %}
+
+	  {{sentenceList[i][quiz[i].sentence_index][1]}}
+	  <br/>
+	  #}
+	  <input type=hidden name="pressed" value="answerSubmit">
+	  <input type=submit value="Submit" class="btn btn-warning">
+	</form>
+      </div>
+
+      <div class="col-md-1">
+
+    {% if quiz[i].sentence_index > 0 %}
+    <form method=post>
+      <input type=hidden name="pressed" value="left">
+      <input type=hidden name="questIndex" value="{{i}}">
+      <input type=submit value='<<' class="btn btn-warning">
+    </form>
+    {% endif %}
+</div> {# end left arrow col #}
+<div class="col-md-1">
+{% if quiz[i].sentence_index < (quiz[i].num_sentences - 1) %}
+    <form method=post>
+      <input type=hidden name="pressed" value="right">
+      <input type=hidden name="questIndex" value="{{i}}">
+      <input type=submit value='>>' class="btn btn-warning">
+    </form>
+    {% endif %}
+      </div>
+    </div> {# end question row #}
+    {% endfor %} {# end question creation for loop #}
+
+  </div>
+  </body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+
+
+</html>

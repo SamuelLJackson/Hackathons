@@ -1,0 +1,29 @@
+{% include "header.html" %}
+<body>
+  <div class="container">
+    <h2>Your Books</h2>
+<ul>
+  {% for i in range(basicInfo.bookTitles|length) %}
+  <li>
+<button data-toggle="collapse" data-target="#chapterList{{i}}" class="btn btn-danger">
+  {{basicInfo.bookTitles[i]}}
+</button>
+<div id="chapterList{{i}}" class="collapse">
+  <ul>
+    {% for chapter in basicInfo.bookChapters[i] %}
+    <li style="color:red">
+      <form method=post action="{{url_for('test')}}">
+	<input type=hidden name="id" value="{{chapter.id}}">
+	<input type=hidden name="pressed" value="chapterTitle">
+	<input type=submit value="{{ chapter.title }}" class="btn btn-danger">
+    </form></li>
+
+  {% endfor %}
+  </ul>
+</div>
+</li>
+  {% endfor %}
+</ul>
+</div>
+</body>
+</html>

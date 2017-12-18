@@ -1,0 +1,27 @@
+from app import db
+class words(db.Model):
+    __tablename__ = "textbooktest"
+
+    id = db.Column(db.Integer, primary_key = True)
+    bold_word = db.Column(db.String(225))
+    chapter_number = db.Column('chapter_num',db.Integer)
+    sentence = db.Column(db.String(10000))
+
+    def __init__(self, bold_word, chapter_number, sentence):
+        self.bold_word = bold_word
+        self.chapter_number = chapter_number
+        self.sentence = sentence
+
+'''
+class tests(db.Model):
+    id = db.Column(db.Integer, primary_key = True)
+    word_id = db.Column(db.Integer, db.ForeignKey('word_id'))
+    answered = db.Column(db.Integer)
+
+    word = db.relationship('words', foreign_keys=word_id)
+
+    def __init__(self, word_id):
+        self.word_id = word_id
+        self.answered = 0
+    
+'''

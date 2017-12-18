@@ -1,0 +1,16 @@
+body {
+   /* background: url('batman.gif');*/
+    
+}
+.text-line {
+    background-color: transparent;
+    color: #333333;
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #333333 1px;
+    padding: 3px 10px;
+}

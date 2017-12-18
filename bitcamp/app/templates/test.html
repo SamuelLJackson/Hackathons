@@ -1,0 +1,76 @@
+{% include "header.html" %}
+
+<body>
+  <link rel = 'stylesheet' type = 'text/css' href = "{{url_for('static', filename='style.css')}}"/>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+      <h2>{{testTitle}}</h2>
+      </div>{# end title col #}
+      <div class="col-md-1">
+      {% if score > 0 %}
+      <h2 style="color:green;border:green;">
+	{% elif score == 0 %}
+	<h2>
+	{% else %}<h2 style="color:red">
+	  {% endif %}{{score}}</h2>
+      </div>{# end score col #}
+    </div> {# end title row #}
+    {% for i in range(quiz|length) %}
+    <div class="row">
+      <div class="col-md-10">
+	{% if quiz[i].answered == 1 %}
+	<p>{{ sentenceList[i][quiz[i].sentence_index][0]}}
+	<strong style="color:green">{{wordList[i].word}}</strong>
+	{{sentenceList[i][quiz[i].sentence_index][1]}}</p>
+      </div>
+      {% elif wordList[i].word[:(quiz[i].num_fails)] == wordList[i].word %}
+      	<p>{{ sentenceList[i][quiz[i].sentence_index][0]}}
+	<strong style="color:red">{{wordList[i].word}}</strong>
+	{{sentenceList[i][quiz[i].sentence_index][1]}}</p>
+      </div>
+      {% else %}
+	<form method="post" action="{{url_for('proxy')}}">
+	  {{ sentenceList[i][quiz[i].sentence_index][0]}}
+	  <input type=text size="20" name="attemptedAnswer"
+		 {% if quiz[i].num_fails > 0 %}
+	  placeholder="{{wordList[i].word[:(quiz[i].num_fails)]}}"{% endif %}>
+	  <input type=hidden name="questIndex" value="{{i}}">
+	  {{sentenceList[i][quiz[i].sentence_index][1]}}
+	  <br/>
+	  <input type=hidden name="pressed" value="answerSubmit">
+	  <input type=submit value="Submit" class="btn btn-warning">
+	</form>
+      </div>
+	{% endif %} {# end check if answered #}
+      <div class="col-md-1">
+	{% if quiz[i].sentence_index > 0 %}
+	<form method=post>
+	  <input type=hidden name="pressed" value="left">
+	  <input type=hidden name="questIndex" value="{{i}}">
+	  <input type=submit value="<<" class="btn btn-warning">
+	</form>
+	{% endif %}
+      </div> {# end left arrow col #}
+      <div class="col-md-1">
+	{% if quiz[i].sentence_index < (quiz[i].num_sentences - 1) %}
+				       <form method=post>
+					 <input type=hidden name="pressed" value="right">
+					 <input type=hidden name="questIndex" value="{{i}}">
+					 <input type=submit value='>>' class="btn btn-warning">
+				       </form>
+				       {% endif %}
+      </div>
+
+    </div> {# end question row #}
+
+    {% endfor %} {# end question creation for loop #}
+    
+  </div>
+</body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+
+
+</html>

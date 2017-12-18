@@ -1,0 +1,18 @@
+{#
+<ul>
+{% for i in range(basicInfo.bookTitles|length)  %}
+<li> {{ basicInfo.bookTitles[i]}}
+  <ul>
+    {% for chapter in basicInfo.bookChapters[i] %}
+    <li style="color:red">
+      <form method=post action="{{url_for('test')}}">
+	<input type=hidden name="id" value="{{chapter.id}}">
+	<input type=hidden name="pressed" value="chapterTitle">
+	<input type=submit value="{{ chapter.title }}" class="btn btn-danger">
+    </form></li>
+    {#{% endfor %}#}
+  </ul>
+</li> {# end book #}
+{% endfor %}
+</ul>
+#}

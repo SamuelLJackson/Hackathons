@@ -1,0 +1,28 @@
+{% include"header.html" %}
+
+<body>
+  <div class="container">
+    <h1>Upload</h1>
+
+
+    <form method=post enctype=multipart/form-data>
+      <div class="form-group">
+	<label for="usr"> Enter TextBook Name:</label>
+      </div>
+
+	<input type="text" name="textBook"><br><br>
+ 
+	<label class="btn btn-warning btn-file">
+	  <input type="file" name="file" id="file" value="file">
+	</label>
+	
+	<input type="submit" value="Upload" id="Upload" class="btn btn-warning">
+ 
+    </form>
+    <div class="load" style="display:none">
+      <img id="load" src="{{url_for('static', filename='batman.gif')}}"/>
+    </div>
+  </div>
+</body>
+</html>
+

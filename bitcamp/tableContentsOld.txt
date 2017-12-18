@@ -1,0 +1,1759 @@
+<outlines>
+<outline level="1" title="Cover&#0;&#0;&#0;&#0;&#0;&#0;&#0;&#0;&#0;&#0;&#0;&#0;">
+<dest><list size="2">
+<ref id="4" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>0</pageno>
+</outline>
+<outline level="1" title="Title Page">
+<dest><list size="2">
+<ref id="38" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>3</pageno>
+</outline>
+<outline level="1" title="Copyright">
+<dest><list size="2">
+<ref id="47" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>4</pageno>
+</outline>
+<outline level="1" title="Contents">
+<dest><list size="2">
+<ref id="95" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>13</pageno>
+</outline>
+<outline level="1" title="I: Artificial Intelligence">
+<dest><list size="2">
+<ref id="347" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>19</pageno>
+</outline>
+<outline level="2" title="1 Introduction">
+<dest><list size="2">
+<ref id="347" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>19</pageno>
+</outline>
+<outline level="3" title="1.1 What Is AI?">
+<dest><list size="2">
+<ref id="347" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>19</pageno>
+</outline>
+<outline level="3" title="1.2 The Foundations of Artificial Intelligence">
+<dest><list size="2">
+<ref id="373" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>23</pageno>
+</outline>
+<outline level="3" title="1.3 The History of Artificial Intelligence">
+<dest><list size="2">
+<ref id="431" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>34</pageno>
+</outline>
+<outline level="3" title="1.4 The State of the Art">
+<dest><list size="2">
+<ref id="490" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>46</pageno>
+</outline>
+<outline level="3" title="1.5 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="496" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>47</pageno>
+</outline>
+<outline level="2" title="2 Intelligent Agents">
+<dest><list size="2">
+<ref id="525" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>52</pageno>
+</outline>
+<outline level="3" title="2.1 Agents and Environments">
+<dest><list size="2">
+<ref id="525" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>52</pageno>
+</outline>
+<outline level="3" title="2.2 Good Behavior: The Concept of Rationality">
+<dest><list size="2">
+<ref id="548" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>54</pageno>
+</outline>
+<outline level="3" title="2.3 The Nature of Environments">
+<dest><list size="2">
+<ref id="575" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>58</pageno>
+</outline>
+<outline level="3" title="2.4 The Structure of Agents">
+<dest><list size="2">
+<ref id="601" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>64</pageno>
+</outline>
+<outline level="3" title="2.5 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="694" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>77</pageno>
+</outline>
+<outline level="1" title="II: Problem-solving">
+<dest><list size="2">
+<ref id="720" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>82</pageno>
+</outline>
+<outline level="2" title="3 Solving Problems by Searching">
+<dest><list size="2">
+<ref id="720" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>82</pageno>
+</outline>
+<outline level="3" title="3.1 Problem-Solving Agents">
+<dest><list size="2">
+<ref id="720" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>82</pageno>
+</outline>
+<outline level="3" title="3.2 Example Problems">
+<dest><list size="2">
+<ref id="763" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>87</pageno>
+</outline>
+<outline level="3" title="3.3 Searching for Solutions">
+<dest><list size="2">
+<ref id="809" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>93</pageno>
+</outline>
+<outline level="3" title="3.4 Uninformed Search Strategies">
+<dest><list size="2">
+<ref id="853" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>99</pageno>
+</outline>
+<outline level="3" title="3.5 Informed &#40;Heuristic&#41; Search Strategies">
+<dest><list size="2">
+<ref id="939" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>110</pageno>
+</outline>
+<outline level="3" title="3.6 Heuristic Functions">
+<dest><list size="2">
+<ref id="1013" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>120</pageno>
+</outline>
+<outline level="3" title="3.7 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="1050" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>126</pageno>
+</outline>
+<outline level="2" title="4 Beyond Classical Search">
+<dest><list size="2">
+<ref id="1117" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>138</pageno>
+</outline>
+<outline level="3" title="4.1 Local Search Algorithms and Optimization Problems">
+<dest><list size="2">
+<ref id="1117" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>138</pageno>
+</outline>
+<outline level="3" title="4.2 Local Search in Continuous Spaces">
+<dest><list size="2">
+<ref id="1196" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>147</pageno>
+</outline>
+<outline level="3" title="4.3 Searching with Nondeterministic Actions">
+<dest><list size="2">
+<ref id="1222" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>151</pageno>
+</outline>
+<outline level="3" title="4.4 Searching with Partial Observations">
+<dest><list size="2">
+<ref id="1264" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>156</pageno>
+</outline>
+<outline level="3" title="4.5 Online Search Agents and Unknown Environments">
+<dest><list size="2">
+<ref id="1344" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>165</pageno>
+</outline>
+<outline level="3" title="4.6 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="1386" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>171</pageno>
+</outline>
+<outline level="2" title="5 Adversarial Search">
+<dest><list size="2">
+<ref id="1425" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>179</pageno>
+</outline>
+<outline level="3" title="5.1 Games">
+<dest><list size="2">
+<ref id="1425" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>179</pageno>
+</outline>
+<outline level="3" title="5.2 Optimal Decisions in Games">
+<dest><list size="2">
+<ref id="1447" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>181</pageno>
+</outline>
+<outline level="3" title="5.3 Alpha–Beta Pruning">
+<dest><list size="2">
+<ref id="1495" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>185</pageno>
+</outline>
+<outline level="3" title="5.4 Imperfect Real-Time Decisions">
+<dest><list size="2">
+<ref id="1528" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>189</pageno>
+</outline>
+<outline level="3" title="5.5 Stochastic Games">
+<dest><list size="2">
+<ref id="1565" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>195</pageno>
+</outline>
+<outline level="3" title="5.6 Partially Observable Games">
+<dest><list size="2">
+<ref id="1594" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>198</pageno>
+</outline>
+<outline level="3" title="5.7 State-of-the-Art Game Programs">
+<dest><list size="2">
+<ref id="1622" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>203</pageno>
+</outline>
+<outline level="3" title="5.8 Alternative Approaches">
+<dest><list size="2">
+<ref id="1632" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>205</pageno>
+</outline>
+<outline level="3" title="5.9 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="1647" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>207</pageno>
+</outline>
+<outline level="2" title="6 Constraint Satisfaction Problems">
+<dest><list size="2">
+<ref id="1744" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>220</pageno>
+</outline>
+<outline level="3" title="6.1 Defining Constraint Satisfaction Problems">
+<dest><list size="2">
+<ref id="1744" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>220</pageno>
+</outline>
+<outline level="3" title="6.2 Constraint Propagation: Inference in CSPs">
+<dest><list size="2">
+<ref id="1799" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>226</pageno>
+</outline>
+<outline level="3" title="6.3 Backtracking Search for CSPs">
+<dest><list size="2">
+<ref id="1837" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>232</pageno>
+</outline>
+<outline level="3" title="6.4 Local Search for CSPs">
+<dest><list size="2">
+<ref id="1874" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>238</pageno>
+</outline>
+<outline level="3" title="6.5 The Structure of Problems">
+<dest><list size="2">
+<ref id="1890" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>240</pageno>
+</outline>
+<outline level="3" title="6.6 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="1930" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>245</pageno>
+</outline>
+<outline level="1" title="III: Knowledge, reasoning, and planning">
+<dest><list size="2">
+<ref id="1964" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>252</pageno>
+</outline>
+<outline level="2" title="7 Logical Agents">
+<dest><list size="2">
+<ref id="1964" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>252</pageno>
+</outline>
+<outline level="3" title="7.1 Knowledge-Based Agents">
+<dest><list size="2">
+<ref id="1974" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>253</pageno>
+</outline>
+<outline level="3" title="7.2 The Wumpus World">
+<dest><list size="2">
+<ref id="1981" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>254</pageno>
+</outline>
+<outline level="3" title="7.3 Logic">
+<dest><list size="2">
+<ref id="2021" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>258</pageno>
+</outline>
+<outline level="3" title="7.4 Propositional Logic: A Very Simple Logic">
+<dest><list size="2">
+<ref id="2051" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>261</pageno>
+</outline>
+<outline level="3" title="7.5 Propositional Theorem Proving">
+<dest><list size="2">
+<ref id="2086" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>267</pageno>
+</outline>
+<outline level="3" title="7.6 Effective Propositional Model Checking">
+<dest><list size="2">
+<ref id="2135" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>277</pageno>
+</outline>
+<outline level="3" title="7.7 Agents Based on Propositional Logic">
+<dest><list size="2">
+<ref id="2168" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>283</pageno>
+</outline>
+<outline level="3" title="7.8 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="2217" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>292</pageno>
+</outline>
+<outline level="2" title="8 First-Order Logic">
+<dest><list size="2">
+<ref id="2270" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>303</pageno>
+</outline>
+<outline level="3" title="8.1 Representation Revisited">
+<dest><list size="2">
+<ref id="2270" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>303</pageno>
+</outline>
+<outline level="3" title="8.2 Syntax and Semantics of First-Order Logic">
+<dest><list size="2">
+<ref id="2306" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>308</pageno>
+</outline>
+<outline level="3" title="8.3 Using First-Order Logic">
+<dest><list size="2">
+<ref id="2372" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>318</pageno>
+</outline>
+<outline level="3" title="8.4 Knowledge Engineering in First-Order Logic">
+<dest><list size="2">
+<ref id="2404" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>325</pageno>
+</outline>
+<outline level="3" title="8.5 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="2437" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>331</pageno>
+</outline>
+<outline level="2" title="9 Inference in First-Order Logic">
+<dest><list size="2">
+<ref id="2492" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>340</pageno>
+</outline>
+<outline level="3" title="9.1 Propositional vs. First-Order Inference">
+<dest><list size="2">
+<ref id="2492" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>340</pageno>
+</outline>
+<outline level="3" title="9.2 Unification and Lifting">
+<dest><list size="2">
+<ref id="2520" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>343</pageno>
+</outline>
+<outline level="3" title="9.3 Forward Chaining">
+<dest><list size="2">
+<ref id="2555" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>348</pageno>
+</outline>
+<outline level="3" title="9.4 Backward Chaining">
+<dest><list size="2">
+<ref id="2601" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>355</pageno>
+</outline>
+<outline level="3" title="9.5 Resolution">
+<dest><list size="2">
+<ref id="2649" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>363</pageno>
+</outline>
+<outline level="3" title="9.6 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="2717" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>375</pageno>
+</outline>
+<outline level="2" title="10 Classical Planning">
+<dest><list size="2">
+<ref id="2759" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>384</pageno>
+</outline>
+<outline level="3" title="10.1 Definition of Classical Planning">
+<dest><list size="2">
+<ref id="2759" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>384</pageno>
+</outline>
+<outline level="3" title="10.2 Algorithms for Planning as State-Space Search">
+<dest><list size="2">
+<ref id="2813" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>391</pageno>
+</outline>
+<outline level="3" title="10.3 Planning Graphs">
+<dest><list size="2">
+<ref id="2858" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>397</pageno>
+</outline>
+<outline level="3" title="10.4 Other Classical Planning Approaches">
+<dest><list size="2">
+<ref id="2905" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>405</pageno>
+</outline>
+<outline level="3" title="10.5 Analysis of Planning Approaches">
+<dest><list size="2">
+<ref id="2945" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>410</pageno>
+</outline>
+<outline level="3" title="10.6 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="2951" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>411</pageno>
+</outline>
+<outline level="2" title="11 Planning and Acting in the Real World">
+<dest><list size="2">
+<ref id="2995" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>419</pageno>
+</outline>
+<outline level="3" title="11.1 Time, Schedules, and Resources">
+<dest><list size="2">
+<ref id="2995" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>419</pageno>
+</outline>
+<outline level="3" title="11.2 Hierarchical Planning">
+<dest><list size="2">
+<ref id="3044" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>424</pageno>
+</outline>
+<outline level="3" title="11.3 Planning and Acting in Nondeterministic Domains">
+<dest><list size="2">
+<ref id="3106" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>433</pageno>
+</outline>
+<outline level="3" title="11.4 Multiagent Planning">
+<dest><list size="2">
+<ref id="3156" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>443</pageno>
+</outline>
+<outline level="3" title="11.5 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="3178" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>448</pageno>
+</outline>
+<outline level="2" title="12 Knowledge Representation">
+<dest><list size="2">
+<ref id="3239" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>455</pageno>
+</outline>
+<outline level="3" title="12.1 Ontological Engineering">
+<dest><list size="2">
+<ref id="3239" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>455</pageno>
+</outline>
+<outline level="3" title="12.2 Categories and Objects">
+<dest><list size="2">
+<ref id="3267" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>458</pageno>
+</outline>
+<outline level="3" title="12.3 Events">
+<dest><list size="2">
+<ref id="3301" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>464</pageno>
+</outline>
+<outline level="3" title="12.4 Mental Events and Mental Objects">
+<dest><list size="2">
+<ref id="3334" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>468</pageno>
+</outline>
+<outline level="3" title="12.5 Reasoning Systems for Categories">
+<dest><list size="2">
+<ref id="3356" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>471</pageno>
+</outline>
+<outline level="3" title="12.6 Reasoning with Default Information">
+<dest><list size="2">
+<ref id="3385" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>476</pageno>
+</outline>
+<outline level="3" title="12.7 The Internet Shopping World">
+<dest><list size="2">
+<ref id="3409" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>480</pageno>
+</outline>
+<outline level="3" title="12.8 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="3435" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>485</pageno>
+</outline>
+<outline level="1" title="IV: Uncertain knowledge and reasoning">
+<dest><list size="2">
+<ref id="3495" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>498</pageno>
+</outline>
+<outline level="2" title="13 Quantifying Uncertainty">
+<dest><list size="2">
+<ref id="3495" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>498</pageno>
+</outline>
+<outline level="3" title="13.1 Acting under Uncertainty">
+<dest><list size="2">
+<ref id="3495" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>498</pageno>
+</outline>
+<outline level="3" title="13.2 Basic Probability Notation">
+<dest><list size="2">
+<ref id="3520" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>501</pageno>
+</outline>
+<outline level="3" title="13.3 Inference Using Full Joint Distributions">
+<dest><list size="2">
+<ref id="3564" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>508</pageno>
+</outline>
+<outline level="3" title="13.4 Independence">
+<dest><list size="2">
+<ref id="3583" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>512</pageno>
+</outline>
+<outline level="3" title="13.5 Bayes’ Rule and Its Use">
+<dest><list size="2">
+<ref id="3590" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>513</pageno>
+</outline>
+<outline level="3" title="13.6 The Wumpus World Revisited">
+<dest><list size="2">
+<ref id="3620" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>517</pageno>
+</outline>
+<outline level="3" title="13.7 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="3652" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>521</pageno>
+</outline>
+<outline level="2" title="14 Probabilistic Reasoning">
+<dest><list size="2">
+<ref id="3685" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>528</pageno>
+</outline>
+<outline level="3" title="14.1 Representing Knowledge in an Uncertain Domain">
+<dest><list size="2">
+<ref id="3685" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>528</pageno>
+</outline>
+<outline level="3" title="14.2 The Semantics of Bayesian Networks">
+<dest><list size="2">
+<ref id="3723" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>531</pageno>
+</outline>
+<outline level="3" title="14.3 Efficient Representation of Conditional Distributions">
+<dest><list size="2">
+<ref id="3757" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>536</pageno>
+</outline>
+<outline level="3" title="14.4 Exact Inference in Bayesian Networks">
+<dest><list size="2">
+<ref id="3798" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>540</pageno>
+</outline>
+<outline level="3" title="14.5 Approximate Inference in Bayesian Networks">
+<dest><list size="2">
+<ref id="3850" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>548</pageno>
+</outline>
+<outline level="3" title="14.6 Relational and First-Order Probability Models">
+<dest><list size="2">
+<ref id="3890" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>557</pageno>
+</outline>
+<outline level="3" title="14.7 Other Approaches to Uncertain Reasoning">
+<dest><list size="2">
+<ref id="3933" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>564</pageno>
+</outline>
+<outline level="3" title="14.8 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="3956" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>569</pageno>
+</outline>
+<outline level="2" title="15 Probabilistic Reasoning over Time">
+<dest><list size="2">
+<ref id="4042" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>584</pageno>
+</outline>
+<outline level="3" title="15.1 Time and Uncertainty">
+<dest><list size="2">
+<ref id="4042" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>584</pageno>
+</outline>
+<outline level="3" title="15.2 Inference in Temporal Models">
+<dest><list size="2">
+<ref id="4094" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>588</pageno>
+</outline>
+<outline level="3" title="15.3 Hidden Markov Models">
+<dest><list size="2">
+<ref id="4146" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>596</pageno>
+</outline>
+<outline level="3" title="15.4 Kalman Filters">
+<dest><list size="2">
+<ref id="4180" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>602</pageno>
+</outline>
+<outline level="3" title="15.5 Dynamic Bayesian Networks">
+<dest><list size="2">
+<ref id="4222" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>608</pageno>
+</outline>
+<outline level="3" title="15.6 Keeping Track of Many Objects">
+<dest><list size="2">
+<ref id="4288" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>617</pageno>
+</outline>
+<outline level="3" title="15.7 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="4326" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>621</pageno>
+</outline>
+<outline level="2" title="16 Making Simple Decisions">
+<dest><list size="2">
+<ref id="4365" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>628</pageno>
+</outline>
+<outline level="3" title="16.1 Combining Beliefs and Desires under Uncertainty">
+<dest><list size="2">
+<ref id="4365" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>628</pageno>
+</outline>
+<outline level="3" title="16.2 The Basis of Utility Theory">
+<dest><list size="2">
+<ref id="4381" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>629</pageno>
+</outline>
+<outline level="3" title="16.3 Utility Functions">
+<dest><list size="2">
+<ref id="4421" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>633</pageno>
+</outline>
+<outline level="3" title="16.4 Multiattribute Utility Functions">
+<dest><list size="2">
+<ref id="4458" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>640</pageno>
+</outline>
+<outline level="3" title="16.5 Decision Networks">
+<dest><list size="2">
+<ref id="4484" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>644</pageno>
+</outline>
+<outline level="3" title="16.6 The Value of Information">
+<dest><list size="2">
+<ref id="4499" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>646</pageno>
+</outline>
+<outline level="3" title="16.7 Decision-Theoretic Expert Systems">
+<dest><list size="2">
+<ref id="4535" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>651</pageno>
+</outline>
+<outline level="3" title="16.8 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="4554" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>654</pageno>
+</outline>
+<outline level="2" title="17 Making Complex Decisions">
+<dest><list size="2">
+<ref id="4602" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>663</pageno>
+</outline>
+<outline level="3" title="17.1 Sequential Decision Problems">
+<dest><list size="2">
+<ref id="4602" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>663</pageno>
+</outline>
+<outline level="3" title="17.2 Value Iteration">
+<dest><list size="2">
+<ref id="4675" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>670</pageno>
+</outline>
+<outline level="3" title="17.3 Policy Iteration">
+<dest><list size="2">
+<ref id="4701" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>674</pageno>
+</outline>
+<outline level="3" title="17.4 Partially Observable MDPs">
+<dest><list size="2">
+<ref id="4713" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>676</pageno>
+</outline>
+<outline level="3" title="17.5 Decisions with Multiple Agents: Game Theory">
+<dest><list size="2">
+<ref id="4760" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>684</pageno>
+</outline>
+<outline level="3" title="17.6 Mechanism Design">
+<dest><list size="2">
+<ref id="4850" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>697</pageno>
+</outline>
+<outline level="3" title="17.7 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="4872" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>702</pageno>
+</outline>
+<outline level="1" title="V: Learning">
+<dest><list size="2">
+<ref id="4920" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>711</pageno>
+</outline>
+<outline level="2" title="18 Learning from Examples">
+<dest><list size="2">
+<ref id="4920" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>711</pageno>
+</outline>
+<outline level="3" title="18.1 Forms of Learning">
+<dest><list size="2">
+<ref id="4920" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>711</pageno>
+</outline>
+<outline level="3" title="18.2 Supervised Learning">
+<dest><list size="2">
+<ref id="4937" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>713</pageno>
+</outline>
+<outline level="3" title="18.3 Learning Decision Trees">
+<dest><list size="2">
+<ref id="4961" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>715</pageno>
+</outline>
+<outline level="3" title="18.4 Evaluating and Choosing the Best Hypothesis">
+<dest><list size="2">
+<ref id="5038" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>726</pageno>
+</outline>
+<outline level="3" title="18.5 The Theory of Learning">
+<dest><list size="2">
+<ref id="5061" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>731</pageno>
+</outline>
+<outline level="3" title="18.6 Regression and Classification with Linear Models">
+<dest><list size="2">
+<ref id="5088" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>735</pageno>
+</outline>
+<outline level="3" title="18.7 Artificial Neural Networks">
+<dest><list size="2">
+<ref id="5149" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>745</pageno>
+</outline>
+<outline level="3" title="18.8 Nonparametric Models">
+<dest><list size="2">
+<ref id="5208" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>755</pageno>
+</outline>
+<outline level="3" title="18.9 Support Vector Machines">
+<dest><list size="2">
+<ref id="5244" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>762</pageno>
+</outline>
+<outline level="3" title="18.10 Ensemble Learning">
+<dest><list size="2">
+<ref id="5262" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>766</pageno>
+</outline>
+<outline level="3" title="18.11 Practical Machine Learning">
+<dest><list size="2">
+<ref id="5295" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>771</pageno>
+</outline>
+<outline level="3" title="18.12 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="5453" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>775</pageno>
+</outline>
+<outline level="2" title="19 Knowledge in Learning">
+<dest><list size="2">
+<ref id="5505" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>786</pageno>
+</outline>
+<outline level="3" title="19.1 ALogical Formulation of Learning">
+<dest><list size="2">
+<ref id="5505" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>786</pageno>
+</outline>
+<outline level="3" title="19.2 Knowledge in Learning">
+<dest><list size="2">
+<ref id="5580" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>795</pageno>
+</outline>
+<outline level="3" title="19.3 Explanation-Based Learning">
+<dest><list size="2">
+<ref id="5599" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>798</pageno>
+</outline>
+<outline level="3" title="19.4 Learning Using Relevance Information">
+<dest><list size="2">
+<ref id="5624" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>802</pageno>
+</outline>
+<outline level="3" title="19.5 Inductive Logic Programming">
+<dest><list size="2">
+<ref id="5647" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>806</pageno>
+</outline>
+<outline level="3" title="19.6 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="5705" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>815</pageno>
+</outline>
+<outline level="2" title="20 Learning Probabilistic Models">
+<dest><list size="2">
+<ref id="5737" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>820</pageno>
+</outline>
+<outline level="3" title="20.1 Statistical Learning">
+<dest><list size="2">
+<ref id="5737" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>820</pageno>
+</outline>
+<outline level="3" title="20.2 Learning with Complete Data">
+<dest><list size="2">
+<ref id="5773" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>824</pageno>
+</outline>
+<outline level="3" title="20.3 Learning with Hidden Variables: The EM Algorithm">
+<dest><list size="2">
+<ref id="5843" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>834</pageno>
+</outline>
+<outline level="3" title="20.4 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="5905" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>843</pageno>
+</outline>
+<outline level="2" title="21 Reinforcement Learning">
+<dest><list size="2">
+<ref id="5930" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>848</pageno>
+</outline>
+<outline level="3" title="21.1 Introduction">
+<dest><list size="2">
+<ref id="5930" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>848</pageno>
+</outline>
+<outline level="3" title="21.2 Passive Reinforcement Learning">
+<dest><list size="2">
+<ref id="5947" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>850</pageno>
+</outline>
+<outline level="3" title="21.3 Active Reinforcement Learning">
+<dest><list size="2">
+<ref id="6015" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>857</pageno>
+</outline>
+<outline level="3" title="21.4 Generalization in Reinforcement Learning">
+<dest><list size="2">
+<ref id="6047" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>863</pageno>
+</outline>
+<outline level="3" title="21.5 Policy Search">
+<dest><list size="2">
+<ref id="6062" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>866</pageno>
+</outline>
+<outline level="3" title="21.6 Applications of Reinforcement Learning">
+<dest><list size="2">
+<ref id="6075" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>868</pageno>
+</outline>
+<outline level="3" title="21.7 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="6104" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>871</pageno>
+</outline>
+<outline level="1" title="VI: Communicating, perceiving, and acting">
+<dest><list size="2">
+<ref id="6139" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>878</pageno>
+</outline>
+<outline level="2" title="22 Natural Language Processing">
+<dest><list size="2">
+<ref id="6139" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>878</pageno>
+</outline>
+<outline level="3" title="22.1 Language Models">
+<dest><list size="2">
+<ref id="6139" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>878</pageno>
+</outline>
+<outline level="3" title="22.2 Text Classification">
+<dest><list size="2">
+<ref id="6185" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>883</pageno>
+</outline>
+<outline level="3" title="22.3 Information Retrieval">
+<dest><list size="2">
+<ref id="6196" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>885</pageno>
+</outline>
+<outline level="3" title="22.4 Information Extraction">
+<dest><list size="2">
+<ref id="6225" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>891</pageno>
+</outline>
+<outline level="3" title="22.5 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="6274" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>900</pageno>
+</outline>
+<outline level="2" title="23 Natural Language for Communication">
+<dest><list size="2">
+<ref id="6306" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>906</pageno>
+</outline>
+<outline level="3" title="23.1 Phrase Structure Grammars">
+<dest><list size="2">
+<ref id="6306" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>906</pageno>
+</outline>
+<outline level="3" title="23.2 Syntactic Analysis &#40;Parsing&#41;">
+<dest><list size="2">
+<ref id="6340" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>910</pageno>
+</outline>
+<outline level="3" title="23.3 Augmented Grammars and Semantic Interpretation">
+<dest><list size="2">
+<ref id="6376" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>915</pageno>
+</outline>
+<outline level="3" title="23.4 Machine Translation">
+<dest><list size="2">
+<ref id="6433" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>925</pageno>
+</outline>
+<outline level="3" title="23.5 Speech Recognition">
+<dest><list size="2">
+<ref id="6468" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>930</pageno>
+</outline>
+<outline level="3" title="23.6 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="6506" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>936</pageno>
+</outline>
+<outline level="2" title="24 Perception">
+<dest><list size="2">
+<ref id="6554" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>946</pageno>
+</outline>
+<outline level="3" title="24.1 Image Formation">
+<dest><list size="2">
+<ref id="6567" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>947</pageno>
+</outline>
+<outline level="3" title="24.2 Early Image-Processing Operations">
+<dest><list size="2">
+<ref id="6651" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>953</pageno>
+</outline>
+<outline level="3" title="24.3 Object Recognition by Appearance">
+<dest><list size="2">
+<ref id="6755" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>960</pageno>
+</outline>
+<outline level="3" title="24.4 Reconstructing the 3D World">
+<dest><list size="2">
+<ref id="6880" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>965</pageno>
+</outline>
+<outline level="3" title="24.5 Object Recognition from Structural Information">
+<dest><list size="2">
+<ref id="7093" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>975</pageno>
+</outline>
+<outline level="3" title="24.6 Using Vision">
+<dest><list size="2">
+<ref id="7178" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>979</pageno>
+</outline>
+<outline level="3" title="24.7 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="7213" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>983</pageno>
+</outline>
+<outline level="2" title="25 Robotics">
+<dest><list size="2">
+<ref id="7249" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>989</pageno>
+</outline>
+<outline level="3" title="25.1 Introduction">
+<dest><list size="2">
+<ref id="7249" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>989</pageno>
+</outline>
+<outline level="3" title="25.2 Robot Hardware">
+<dest><list size="2">
+<ref id="7290" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>991</pageno>
+</outline>
+<outline level="3" title="25.3 Robotic Perception">
+<dest><list size="2">
+<ref id="7359" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>996</pageno>
+</outline>
+<outline level="3" title="25.4 Planning to Move">
+<dest><list size="2">
+<ref id="7483" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1004</pageno>
+</outline>
+<outline level="3" title="25.5 Planning Uncertain Movements">
+<dest><list size="2">
+<ref id="7632" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1011</pageno>
+</outline>
+<outline level="3" title="25.6 Moving">
+<dest><list size="2">
+<ref id="7660" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1015</pageno>
+</outline>
+<outline level="3" title="25.7 Robotic Software Architectures">
+<dest><list size="2">
+<ref id="7750" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1021</pageno>
+</outline>
+<outline level="3" title="25.8 Application Domains">
+<dest><list size="2">
+<ref id="7770" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1024</pageno>
+</outline>
+<outline level="3" title="25.9 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="7842" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1028</pageno>
+</outline>
+<outline level="1" title="VII: Conclusions">
+<dest><list size="2">
+<ref id="7960" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1038</pageno>
+</outline>
+<outline level="2" title="26 Philosophical Foundations">
+<dest><list size="2">
+<ref id="7960" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1038</pageno>
+</outline>
+<outline level="3" title="26.1 Weak AI: Can Machines Act Intelligently?">
+<dest><list size="2">
+<ref id="7960" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1038</pageno>
+</outline>
+<outline level="3" title="26.2 Strong AI: Can Machines Really Think?">
+<dest><list size="2">
+<ref id="8000" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1044</pageno>
+</outline>
+<outline level="3" title="26.3 The Ethics and Risks of Developing Artificial Intelligence">
+<dest><list size="2">
+<ref id="8035" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1052</pageno>
+</outline>
+<outline level="3" title="26.4 Summary, Bibliographical and Historical Notes, Exercises">
+<dest><list size="2">
+<ref id="8062" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1058</pageno>
+</outline>
+<outline level="2" title="27 AI: The Present and Future">
+<dest><list size="2">
+<ref id="8084" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1062</pageno>
+</outline>
+<outline level="3" title="27.1 Agent Components">
+<dest><list size="2">
+<ref id="8084" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1062</pageno>
+</outline>
+<outline level="3" title="27.2 Agent Architectures">
+<dest><list size="2">
+<ref id="8111" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1065</pageno>
+</outline>
+<outline level="3" title="27.3 Are We Going in the Right Direction?">
+<dest><list size="2">
+<ref id="8134" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1067</pageno>
+</outline>
+<outline level="3" title="27.4 What If AI Does Succeed?">
+<dest><list size="2">
+<ref id="8146" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1069</pageno>
+</outline>
+<outline level="1" title="A: Mathematical background">
+<dest><list size="2">
+<ref id="8156" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1071</pageno>
+</outline>
+<outline level="2" title="A.1 Complexity Analysis and O&#40;&#41; Notation">
+<dest><list size="2">
+<ref id="8156" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1071</pageno>
+</outline>
+<outline level="2" title="A.2 Vectors, Matrices, and Linear Algebra">
+<dest><list size="2">
+<ref id="8178" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1073</pageno>
+</outline>
+<outline level="2" title="A.3 Probability Distributions">
+<dest><list size="2">
+<ref id="8196" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1075</pageno>
+</outline>
+<outline level="1" title="B: Notes on Languages and Algorithms">
+<dest><list size="2">
+<ref id="8218" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1078</pageno>
+</outline>
+<outline level="2" title="B.1 Defining Languages with Backus–Naur Form &#40;BNF&#41;">
+<dest><list size="2">
+<ref id="8218" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1078</pageno>
+</outline>
+<outline level="2" title="B.2 Describing Algorithms with Pseudocode">
+<dest><list size="2">
+<ref id="8233" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1079</pageno>
+</outline>
+<outline level="2" title="B.3 Online Help">
+<dest><list size="2">
+<ref id="8243" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1080</pageno>
+</outline>
+<outline level="1" title="Bibliography">
+<dest><list size="2">
+<ref id="8250" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1081</pageno>
+</outline>
+<outline level="1" title="Index">
+<dest><list size="2">
+<ref id="8406" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1113</pageno>
+</outline>
+<outline level="2" title="A">
+<dest><list size="2">
+<ref id="8406" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1113</pageno>
+</outline>
+<outline level="2" title="B">
+<dest><list size="2">
+<ref id="8951" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1115</pageno>
+</outline>
+<outline level="2" title="C">
+<dest><list size="2">
+<ref id="9644" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1117</pageno>
+</outline>
+<outline level="2" title="D">
+<dest><list size="2">
+<ref id="10610" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1120</pageno>
+</outline>
+<outline level="2" title="E">
+<dest><list size="2">
+<ref id="11241" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1122</pageno>
+</outline>
+<outline level="2" title="F">
+<dest><list size="2">
+<ref id="11556" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1123</pageno>
+</outline>
+<outline level="2" title="G">
+<dest><list size="2">
+<ref id="11862" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1124</pageno>
+</outline>
+<outline level="2" title="H">
+<dest><list size="2">
+<ref id="12561" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1126</pageno>
+</outline>
+<outline level="2" title="I">
+<dest><list size="2">
+<ref id="13258" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1128</pageno>
+</outline>
+<outline level="2" title="J">
+<dest><list size="2">
+<ref id="13549" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1129</pageno>
+</outline>
+<outline level="2" title="K">
+<dest><list size="2">
+<ref id="13549" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1129</pageno>
+</outline>
+<outline level="2" title="L">
+<dest><list size="2">
+<ref id="13952" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1130</pageno>
+</outline>
+<outline level="2" title="M">
+<dest><list size="2">
+<ref id="15043" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1133</pageno>
+</outline>
+<outline level="2" title="N">
+<dest><list size="2">
+<ref id="15756" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1135</pageno>
+</outline>
+<outline level="2" title="O">
+<dest><list size="2">
+<ref id="16095" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1136</pageno>
+</outline>
+<outline level="2" title="P">
+<dest><list size="2">
+<ref id="16447" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1137</pageno>
+</outline>
+<outline level="2" title="Q">
+<dest><list size="2">
+<ref id="17366" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1140</pageno>
+</outline>
+<outline level="2" title="R">
+<dest><list size="2">
+<ref id="17366" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1140</pageno>
+</outline>
+<outline level="2" title="S">
+<dest><list size="2">
+<ref id="17979" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1142</pageno>
+</outline>
+<outline level="2" title="T">
+<dest><list size="2">
+<ref id="19428" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1146</pageno>
+</outline>
+<outline level="2" title="U">
+<dest><list size="2">
+<ref id="19744" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1147</pageno>
+</outline>
+<outline level="2" title="V">
+<dest><list size="2">
+<ref id="20061" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1148</pageno>
+</outline>
+<outline level="2" title="W">
+<dest><list size="2">
+<ref id="20385" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1149</pageno>
+</outline>
+<outline level="2" title="X">
+<dest><list size="2">
+<ref id="20766" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1150</pageno>
+</outline>
+<outline level="2" title="Y">
+<dest><list size="2">
+<ref id="20766" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1150</pageno>
+</outline>
+<outline level="2" title="Z">
+<dest><list size="2">
+<ref id="20766" />
+<literal>Fit</literal>
+</list></dest>
+<pageno>1150</pageno>
+</outline>
+</outlines>

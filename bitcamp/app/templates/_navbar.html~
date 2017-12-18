@@ -1,0 +1,23 @@
+{% set menuActive = "" %}
+{% set uploadActive = "" %}
+{% if active == "menu" %}
+{% set menuActive = "class=active" %}
+{% elif active == "load" %}
+{% set uploadActive = "class=active" %}
+{% endif %}
+
+<div class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-left">
+	<li {{menuActive}}><a href="{{url_for('menu')}}">Menu</a></li>
+	<li {{menuActive}}><a href="{{url_for('load')}}">Upload New Book</a></li>
+      </ul>
+    </div> 
+  </div> {# end container #}
+</div> {# close navbar #}
