@@ -1,0 +1,155 @@
+{% include "header.html" %}
+
+<body>
+  <div class="container">
+    <h3>Enter a Title for your tour</h3>
+    
+    <div>
+      <input type="textbox" placeholder="title" id="titleTB"/>
+    </div>
+    <br>
+    <div id="map"></div>
+    <script>
+     
+      var markers = [];
+      var longitudes = [];
+      var latitudes = [];
+      var descriptions = [];
+      var longitude = 0;
+      var latitude = 0;
+      var infowindow;
+
+      var begin = "<form method=post id='formForm'>";
+      var end = "<input type=submit value=Submit>";
+      var middle = "";
+      var count = 0;
+      
+      function initMap(event) {
+
+          var uluru = {lat: -25.363, lng: 131.044};
+          var baltimore = {lat: 39.2904, lng: -76.6122};
+      
+          map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 4,
+              center: baltimore
+          });
+      
+          var contentString = '<div id="content">'+
+	     '<div>'+
+	     '<textarea id="description" rows="10" style="width:500px" placeholder="Description of the location">'+
+	        
+              '</textarea>'+
+	    '<input type="textbox" id="stopTitle" placeholder="stop title" style="width:500px"/>' + '<br>' +
+ 	    '<input type="textbox" id="urlForYouTube" placeholder="YouTube URL" style="width:500px"/>' + '<br>' +
+	    '<input type="textbox" id="imageLink" placeholder="Image Link" style="width:500px"/>' + '<br>' +
+	    '<input type="button" value="Add to List", onclick="addToList()" />'+ 
+	     '</div>'+
+	     '</div>'
+
+          infowindow = new google.maps.InfoWindow({
+             content: contentString
+          });
+      
+          map.addListener('click', function(event) {
+              var marker2 = new google.maps.Marker({
+                  position: event.latLng,
+                  map: map
+               });
+
+               latitude = event.latLng.lat();
+               console.log(latitude)
+               longitude = event.latLng.lng();
+               console.log(longitude)
+               infowindow.open(map,marker2);
+
+               marker2.addListener('click', function(event) {
+                  alert("Howdy");
+               });
+               
+          });
+
+      }
+      
+      function addToList() {
+
+          longitudes[longitudes.length] = longitude;
+          latitudes[latitudes.length] = latitude;
+	  cleanDescription = document.getElementById('description').value;
+	  var i;
+	for( i = 0; i < cleanDescription.length; i++ ){
+	    
+	    if (cleanDescription[i] == "\n"){
+	
+               cleanDescription = cleanDescription.replace("\n", "<br>")
+			
+		}
+	}
+	
+					  
+          descriptions[descriptions.length] = cleanDescription;
+
+
+
+	middle = middle + "<input name='lat" + String(count) + "' type=hidden value='" + String(latitudes[count]) + "'>";
+	middle = middle + "<input type=hidden name='lng" + String(count) + "' value='" + String(longitudes[count]) + "'>";
+	middle = middle + "<input type=hidden name='description" + String(count) + "' value='" + descriptions[count] + "'>";
+	middle = middle + "<input type=hidden name='stopTitle" + String(count) + "' value='" + document.getElementById("stopTitle").value + "'>";
+	middle = middle + "<input type=hidden name='urlForYouTube" + String(count) + "' value='" + document.getElementById("urlForYouTube").value.replace("/watch?v=", "/embed") + "/" + "'>";
+	middle = middle + "<input type=hidden name='imageLink" + String(count) + "' value='" + document.getElementById("imageLink").value + "'>";
+
+	infowindow.close();
+	count++;
+	}
+	
+      /*
+      function sendData()
+      {
+          console.log(latitudes);
+          console.log(longitudes);
+          console.log(descriptions);
+
+          var myString = "word";
+          $.post("{{url_for ('index')}}", {"longitudes":longitudes, "latitudes":latitudes, "descriptions":descriptions, "string":myString}, function(data, status)
+          {
+              var tmp = data;
+              console.log(data.otstr);
+              window.location.replace('{{url_for ('index')}}');
+          });
+
+	}
+	*/
+	
+	function sendData()
+	{
+	middle = middle + "<input type=hidden name='numStops' value='" + count.toString() + "'>" + "<input type=hidden name='titleTB' value='" + document.getElementById("titleTB").value + "'>";
+	send();
+	}
+	function returnString()
+	{
+	return (begin + middle + end);
+	}
+    </script>
+    
+    <script>
+      $(document).ready(function() {
+      send = function() {
+      $('#mapForm').append(returnString());
+      $('#formForm').submit();
+      }
+      });
+    </script>
+    
+    <script async defer
+	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEvaMvgQYHi2alKGm5mFvRqL10gtE9MgY&callback=initMap">
+    </script>
+    
+    <div id="mapForm"></div>
+    
+    <div>
+
+      <input type="button" value="Submit", onclick="sendData()" class="btn btn-info"/>
+      
+    </div>
+</div>    
+  </body>
+</html>

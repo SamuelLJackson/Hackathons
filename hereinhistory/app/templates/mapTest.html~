@@ -1,0 +1,200 @@
+{% include "header.html" %}
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+	{% if mapData2|length > 0 %}
+	<h3>{{twoTourList[0].title}} & {{twoTourList[1].title}}</h3>
+	{% else %}
+	<h3>{{twoTourList[0].title}}</h3>
+	{% endif %}
+      </div>
+      <div class="col-md-6">
+	<h3>Details</h3>
+      </div>
+    </div>{#end titles row #}
+    <div class="row">
+      <div class="col-md-6">
+	<div id="map"></div>
+	    <form method=post>
+    <select name="secondTourID">
+      {% for tart in tourList %}
+      <option value="{{tart.id}}">{{tart.title}}</option>
+      {% endfor %}
+    </select>
+    <input type=hidden name="firstTourID" value="{{twoTourList[0].id}}">
+    <input type=hidden name="pressed" value="secondTour">
+    <input type=submit value="Add Second Tour" class="btn btn-info">
+    </form>
+      </div>
+      <div class="col-md-6">
+
+     <div class="panel panel-default">
+       {% for data in mapData %}
+       {% if mapData2|length > 0 %}
+       <div class="panel-heading" style="color:red">Stop #{{loop.index}} : {{data.title}} : {{data.date}}</div>
+       {% else %}
+       <div class="panel-heading">Stop #{{loop.index}} : {{data.title}} : {{data.date}}</div>
+       {% endif %}
+       <div class="panel-body" id="firstDescription{{loop.index}}">
+	 {% if data.youtube_link != "/" %}
+	 <iframe width="100%" height="315" src="{{data.youtube_link}}">
+	 </iframe>
+	 {% endif %}
+			<div>
+	   {{data.description|safe}}
+			</div>
+			{% if data.image_link != "" %}
+			<img width="100%" src="{{data.image_link}}" alt="image"/>
+			{% endif %}
+
+       </div>
+
+       {% endfor %}
+       {% for data in mapData2 %}
+       <div class="panel-heading" style="color:green">Stop #{{loop.index}} : {{data.title}} : {{data.date}}</div>
+       <div class="panel-body" id="secondDescription{{loop.index}}">
+	 {% if data.youtube_link != "/" %}
+	 <iframe width="100%" height="315" src="{{data.youtube_link}}">
+	 </iframe>
+	 {% endif %}
+	 <div>
+	   {{data.description|safe}}
+	 </div>
+	 {% if data.image_link != "" %}
+	 <img width="100%" src="{{data.image_link}}" alt="image"/>
+	 {% endif %}
+	 </div>
+       {% endfor %}
+     </div>
+      </div>{# end accordion col #}
+    </div> {# end row #}
+  <script>
+
+      function initMap(event) {
+      var mapData = [];
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 4,
+             center: {lat: {{mapData[0].latitude}}, lng: {{mapData[0].longitude}} }
+      });
+      {# make first tour markers #}
+      var markers = [];
+      {% for stop in mapData %}
+      markers[{{loop.index}}] = new google.maps.Marker({
+      position: {lat: {{stop.latitude}}, lng: {{stop.longitude}}},
+      map: map,
+      label: '{{loop.index}}'
+      });
+      {% endfor  %}
+      {# make second tour markers #}
+      markers2 = [];
+      {% for stop in mapData2 %}
+      markers2[{{loop.index}}] = new google.maps.Marker({
+      icon: 'http://maps.google.com/mapfiles/ms/icons/green.png',
+      position: {lat: {{stop.latitude}}, lng: {{stop.longitude}}},
+      map: map,
+      label: '{{loop.index}}'
+      });
+      {% endfor %}
+      {# add actionListener to first tour markers #}
+      {% for stop in mapData %}
+      markers[{{loop.index}}].addListener('click',function(event) {
+      $('#firstDescription{{loop.index}}').toggle();
+      
+      var count;
+      var indy = {{loop.index}};
+      for (count = 0; count < markers.length; count++) {
+			      if (count != indy ) {
+			      $('#firstDescription' + count.toString()).hide();
+			      }
+			      }
+			      for (count = 0; count < markers2.length; count++){
+						      $('#secondDescription' + count.toString()).hide();
+						      }
+      });
+			      {% endfor %}
+			      
+			      {# add onclick listener to second tour markers #}
+			      {% for stop in mapData2 %}
+			      markers2[{{loop.index}}].addListener('click',function(event) {
+			      $('#secondDescription{{loop.index}}').toggle();
+			      var count2;
+			      var indy2 = {{loop.index}};
+			      for (count2 = 0; count2 < markers2.length; count2++) {
+							if (count2 != indy2) {
+							$('#secondDescription' + count2.toString()).hide();
+							}
+							}
+							for (count2 = 0; count2 < markers.length; count2++) {
+										  $('#firstDescription'+count2.toString()).hide();
+
+
+										  }
+							});
+										  {% endfor %}
+										  var lineSymbol = {
+										  path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+										  fillColor: '#F00',
+										  strokeColor: '#F00',
+										  fillOpacity: 1
+										  };
+			      {% for stop in mapData %}
+	       		      {% if loop.index > 1 %}
+		              var line = new google.maps.Polyline({
+							path: [{ lat: {{mapData[loop.index-2].latitude}}, lng: {{mapData[loop.index-2].longitude}} }, {lat: {{mapData[loop.index-1].latitude}}, lng: {{mapData[loop.index-1].longitude}} }],
+							icons: [{
+icon: lineSymbol,
+							offset: '100%',
+							
+							}],
+							strokeColor: '#F00',
+map:map
+});
+{% endif %}
+							{% endfor %}
+
+																	  var lineSymbol = {
+										  path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+										  fillColor: '#0F0',
+										  strokeColor: '#0F0',
+										  fillOpacity: 1
+										  };
+										      {% for stop in mapData2 %}
+	       		      {% if loop.index > 1 %}
+		              var line = new google.maps.Polyline({
+							path: [{ lat: {{mapData2[loop.index-2].latitude}}, lng: {{mapData2[loop.index-2].longitude}} }, {lat: {{mapData2[loop.index-1].latitude}}, lng: {{mapData2[loop.index-1].longitude}} }],
+							icons: [{
+icon: lineSymbol,
+							offset: '100%',
+							
+						      }],
+						      strokeColor: '#0F0',
+map:map
+});
+{% endif %}
+							{% endfor %}
+							
+
+										  
+			      }
+			      </script>
+  <script>
+    $(document).ready(function() {
+    var count;
+    for (count = 0;count < {{mapData|length}}+1; count++) {
+			   $('#firstDescription' + count.toString()).hide();
+			   }
+    for (count = 0;count < {{mapData2|length}}+1; count++) {
+			   $('#secondDescription' + count.toString()).hide();
+			   }
+    });      
+			   
+    </script>
+    <script async defer
+	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEvaMvgQYHi2alKGm5mFvRqL10gtE9MgY&callback=initMap">
+    </script>
+
+</div>
+  </body>
+</html>

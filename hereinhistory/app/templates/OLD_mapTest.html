@@ -1,0 +1,88 @@
+{% include "header.html" %}
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+	<h3>My Google Maps Demo</h3>
+      </div>
+      <div class="col-lg-6">
+	<h3>Description</h3>
+      </div>
+    </div>{#end titles row #}
+    <div class="row">
+      <div class="col-lg-6">
+	<div id="map"></div>
+      </div>
+      <div class="col-lg-6">
+
+	<div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+	  {% for data in mapData %}
+	  <div class="panel">
+	    <div class="panel-heading" role="tab" id="heading{{loop.index}}">
+	      <h4 class="panel-title">
+
+		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{loop.index}}" aria-expanded="false" aria-controls="collapse{{loop.index}}">
+		  Stop #{{ loop.index}}
+		</a>
+	      </h4>
+	    </div>
+	    <div id="collapse{{loop.index}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{loop.index}}">
+	      <div class="panel-body">
+		{{ data.description}}
+	      </div>
+	    </div>
+	  </div>
+	  <!-- end of panel -->
+	  {% endfor %}
+	</div>
+	<!-- end of #accordion -->
+
+      </div>
+     <!-- end of wrap -->
+
+
+      </div>{# end accordion col #}
+    </div> {# end row #}
+   <script>
+      function initMap(event) {
+          var uluru = {lat: -25.363, lng: 131.044};
+      var baltimore = {lat: 39.2904, lng: -76.6122};
+      var locations = [uluru,baltimore];
+      var mapData = [];
+      var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 4,
+             center: baltimore
+      });
+      var markers = [];
+      {% for stop in mapData %}
+      markers[{{loop.index}}] = new google.maps.Marker({
+      position: {lat: {{stop.latitude}}, lng: {{stop.longitude}}},
+      map: map
+      });
+      markers[{{loop.index}}].addListener('click',function(event) {
+      $('#description{{loop.index}}').show();
+      var count;
+      for (count = 0; count < markers.length; count++) {
+			      $('#description' + count.toString()).hide();
+			      }
+      });
+      {% endfor %}
+      /*
+      var count;
+      for (count = 0; count < 2; count++) {
+          var marker = new google.maps.Marker({
+              position: locations[count],
+              map: map
+			      });
+			      }
+        */    
+      }
+      
+    </script>
+    <script async defer
+	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEvaMvgQYHi2alKGm5mFvRqL10gtE9MgY&callback=initMap">
+    </script>
+
+</div>    
+  </body>
+</html>

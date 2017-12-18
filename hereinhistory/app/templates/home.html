@@ -1,0 +1,22 @@
+{% include "header.html" %}
+
+<body>
+  <div class="container">
+    <h1>Welcome To Here In History</h1>
+    <h3>Newest Tours</h3>
+
+    <ul>
+      {% for tour in tours %}
+      <li>
+	<form method=post action="{{url_for('viewTour')}}">
+	  <input type=hidden name="pressed" value="firstTour">
+	  <input type=hidden name="firstTourID" value="{{tour.id}}">
+	  <input type=submit value="{{tour.title}}" class="btn btn-default">
+	</form>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  </body>
+</html>
